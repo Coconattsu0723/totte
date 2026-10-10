@@ -1,7 +1,7 @@
 # totte Implementation Notes
 
 更新日：2026-10-11  
-状態：主要4画面と発注・入荷フローの実装、Pencil最終照合、GitHub Pages公開前QAまで完了
+状態：主要4画面と発注・入荷フローの実装、Pencil最終照合、GitHub Pages公開後QAまで完了
 
 ## 1. 実装構成
 
@@ -127,5 +127,5 @@
 
 - GitHub Pages：`https://coconattsu0723.github.io/totte/` で公開済み
 - canonical、OGP、favicon、404、Console、主要4画面の本番確認は完了
-- 中間幅修正をGitHubへ反映後、公開URLの768 / 1024pxを再確認する
+- 中間幅修正をGitHubへ反映し、公開URLの768 / 1024pxで横方向のはみ出し、画像欠落、ボタン改行、発注表の優先列表示、Consoleを再確認済み
 - Safari / Firefoxの実機確認は未実施

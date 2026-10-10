@@ -15,6 +15,7 @@
 4. `docs/04_IMPLEMENTATION_NOTES.md`
 5. `docs/05_DECISIONS_LOG.md`
 6. `docs/06_HANDOFF.md`
+7. `docs/07_PORTFOLIO_CASE_STUDY.md`
 
 ## Scope and constraints
 
