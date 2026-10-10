@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">totte ロゴガイド</title>
+  <desc id="desc">正式ロゴのコンセプト、基本形、反転形、シンボル、使用ルール</desc>
+  <rect width="1200" height="800" fill="#F7F4EE"/>
+  <g font-family="Noto Sans JP, system-ui, sans-serif" fill="#21312B">
+    <text x="72" y="72" font-size="18" font-weight="700" letter-spacing="2">TOTTE / BRAND MARK</text>
+    <text x="72" y="116" font-size="34" font-weight="700">手が届くための「取っ手」を、tのかたちに。</text>
+    <text x="72" y="150" font-size="16" fill="#5F6B66">必要な情報をつかみ、毎日の業務をひとつに整える。温かさと実務性を両立するロゴ。</text>
+
+    <rect x="72" y="198" width="650" height="220" rx="24" fill="#FFFFFF" stroke="#E1DED6"/>
+    <text x="104" y="238" font-size="13" font-weight="700" fill="#5F6B66">PRIMARY LOGO</text>
+    <g transform="translate(142 280) scale(2.65)" fill="none" stroke="#174D3B" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke-width="5">
+        <path d="M8 18v-2C8 9.9 12.9 5 19 5s11 4.9 11 11v2"/>
+        <path d="M7 20h24M19 18v21"/>
+      </g>
+      <g stroke-width="5.2">
+        <path d="M58 9v25c0 3.3 2.1 5 5 5M50 18h16"/>
+        <circle cx="82" cy="27" r="11"/>
+        <path d="M106 9v25c0 3.3 2.1 5 5 5M98 18h16M130 9v25c0 3.3 2.1 5 5 5M122 18h16"/>
+        <path d="M166 27h-22c0-6.7 4.7-12 11.2-12S166 20.1 166 27h-22c0 7 5.1 12 12.4 12 3.8 0 7.1-1.2 9.6-3.6"/>
+      </g>
+    </g>
+
+    <rect x="746" y="198" width="382" height="220" rx="24" fill="#174D3B"/>
+    <text x="778" y="238" font-size="13" font-weight="700" fill="#D6E8DF">REVERSE</text>
+    <g transform="translate(789 285) scale(1.75)" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke-width="5">
+        <path d="M8 18v-2C8 9.9 12.9 5 19 5s11 4.9 11 11v2"/>
+        <path d="M7 20h24M19 18v21"/>
+      </g>
+      <g stroke-width="5.2">
+        <path d="M58 9v25c0 3.3 2.1 5 5 5M50 18h16"/>
+        <circle cx="82" cy="27" r="11"/>
+        <path d="M106 9v25c0 3.3 2.1 5 5 5M98 18h16M130 9v25c0 3.3 2.1 5 5 5M122 18h16"/>
+        <path d="M166 27h-22c0-6.7 4.7-12 11.2-12S166 20.1 166 27h-22c0 7 5.1 12 12.4 12 3.8 0 7.1-1.2 9.6-3.6"/>
+      </g>
+    </g>
+
+    <rect x="72" y="450" width="250" height="250" rx="24" fill="#FFFFFF" stroke="#E1DED6"/>
+    <text x="104" y="490" font-size="13" font-weight="700" fill="#5F6B66">SYMBOL</text>
+    <g transform="translate(133 525) scale(3.4)" fill="none" stroke="#174D3B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 18v-2C8 9.9 12.9 5 19 5s11 4.9 11 11v2"/>
+      <path d="M7 20h24M19 18v21"/>
+    </g>
+
+    <rect x="346" y="450" width="350" height="250" rx="24" fill="#FFFFFF" stroke="#E1DED6"/>
+    <text x="378" y="490" font-size="13" font-weight="700" fill="#5F6B66">CONCEPT</text>
+    <text x="378" y="540" font-size="20" font-weight="700">取っ手 × 小文字の t</text>
+    <text x="378" y="580" font-size="15" fill="#5F6B66">アーチは「つかむ・手が届く」、</text>
+    <text x="378" y="608" font-size="15" fill="#5F6B66">中央の軸は「整える・支える」。</text>
+    <text x="378" y="650" font-size="15" fill="#5F6B66">丸い端部はカフェの親しみやすさと、</text>
+    <text x="378" y="678" font-size="15" fill="#5F6B66">日常業務での扱いやすさを表します。</text>
+
+    <rect x="720" y="450" width="408" height="250" rx="24" fill="#FFFFFF" stroke="#E1DED6"/>
+    <text x="752" y="490" font-size="13" font-weight="700" fill="#5F6B66">USAGE</text>
+    <circle cx="766" cy="536" r="5" fill="#174D3B"/>
+    <text x="784" y="542" font-size="15">基本色は Primary #174D3B</text>
+    <circle cx="766" cy="576" r="5" fill="#174D3B"/>
+    <text x="784" y="582" font-size="15">濃色背景では白の反転ロゴ</text>
+    <circle cx="766" cy="616" r="5" fill="#174D3B"/>
+    <text x="784" y="622" font-size="15">フルロゴ最小幅 112px</text>
+    <circle cx="766" cy="656" r="5" fill="#174D3B"/>
+    <text x="784" y="662" font-size="15">シンボル最小サイズ 24px</text>
+
+    <text x="72" y="756" font-size="13" fill="#5F6B66">正式版 1.0 / 2026-10-10　※ キャッチコピーはロゴ本体に含めず、用途に応じて別要素として配置する。</text>
+  </g>
+</svg>

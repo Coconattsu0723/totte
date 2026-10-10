@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="カフェ向け売上・在庫管理Webアプリ『totte』のデモです。売上、在庫、発注、入荷処理をひとつの画面群で確認できます。">
+    <meta name="theme-color" content="#174d3b">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="totte">
+    <meta property="og:title" content="totte｜カフェ向け売上・在庫管理Webアプリ">
+    <meta property="og:description" content="売上、在庫、発注、入荷処理をひとつの画面群で確認できる、カフェ向け業務Webアプリのデモです。">
+    <meta property="og:url" content="https://coconattsu0723.github.io/totte/">
+    <meta property="og:image" content="https://coconattsu0723.github.io/totte/assets/images/brand/totte-ogp.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="totte カフェ向け売上・在庫管理Webアプリ">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="totte｜カフェ向け売上・在庫管理Webアプリ">
+    <meta name="twitter:description" content="売上、在庫、発注、入荷処理をひとつの画面群で確認できる、カフェ向け業務Webアプリのデモです。">
+    <meta name="twitter:image" content="https://coconattsu0723.github.io/totte/assets/images/brand/totte-ogp.png">
+    <link rel="canonical" href="https://coconattsu0723.github.io/totte/">
+    <title>totte｜お店の毎日を、ひとつに整える。</title>
+    <link rel="icon" href="./assets/images/brand/totte-favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/css/common.css?v=20261011-4">
+    <script src="./assets/js/main.js?v=20261010-6" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">メインコンテンツへ移動</a>
+
+    <svg class="svg-sprite" aria-hidden="true">
+      <symbol id="icon-dashboard" viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v10h-6zM4 14h6v6H4zM14 18h6v2h-6z"/></symbol>
+      <symbol id="icon-sales" viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/><path d="m3 9 6-5 6 5 6-6"/></symbol>
+      <symbol id="icon-inventory" viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5zM3 7v10l9 5 9-5V7M12 12v10"/></symbol>
+      <symbol id="icon-orders" viewBox="0 0 24 24"><path d="M7 4h10M9 2h6v4H9zM6 4H4v18h16V4h-2M8 11h8M8 15h8"/></symbol>
+      <symbol id="icon-store" viewBox="0 0 24 24"><path d="M4 10v10h16V10M3 10l2-7h14l2 7M8 20v-6h8v6"/><path d="M3 10c0 2 3 2 4 0 1 2 4 2 5 0 1 2 4 2 5 0 1 2 4 2 4 0"/></symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M5 3v3M19 3v3M3 8h18M4 5h16v16H4z"/></symbol>
+      <symbol id="icon-coffee" viewBox="0 0 24 24"><path d="M5 8h12v7a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5zM17 10h2a3 3 0 0 1 0 6h-2M8 3c-1 1-1 2 0 3M12 3c-1 1-1 2 0 3"/></symbol>
+      <symbol id="icon-milk" viewBox="0 0 24 24"><path d="M9 2h6l1 5 2 3v12H6V10l2-3zM8 7h8M9 12h6"/></symbol>
+      <symbol id="icon-cup" viewBox="0 0 24 24"><path d="M6 3h12l-1 18H7zM5 7h14M8 3V1h8v2"/></symbol>
+      <symbol id="icon-package" viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5zM3 7v10l9 5 9-5V7M12 12v10M7 5l9 5"/></symbol>
+      <symbol id="icon-alert" viewBox="0 0 24 24"><path d="M12 3 2 21h20zM12 9v5M12 18h.01"/></symbol>
+      <symbol id="icon-truck" viewBox="0 0 24 24"><path d="M3 5h11v12H3zM14 9h4l3 4v4h-7zM7 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+      <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+      <symbol id="icon-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"/></symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="icon-reset" viewBox="0 0 24 24"><path d="M4 7v5h5M5 12a7 7 0 1 0 2-5"/></symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    </svg>
+
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="メインナビゲーション">
+        <div class="brand">
+          <img class="brand__logo" src="./assets/images/brand/totte-logo-reverse.svg" width="116" height="32" alt="totte">
+          <img class="brand__symbol" src="./assets/images/brand/totte-symbol-reverse.svg" width="38" height="48" alt="">
+          <span class="brand__copy">お店の毎日を、ひとつに。</span>
+        </div>
+        <nav class="sidebar-nav" data-navigation></nav>
+        <div class="sidebar-context">
+          <span>現在の店舗</span>
+          <strong data-current-store>中央通り本店</strong>
+        </div>
+      </aside>
+
+      <div class="app-main">
+        <header class="app-header">
+          <img class="app-header__brand" src="./assets/images/brand/totte-logo-reverse.svg" width="92" height="25" alt="totte">
+          <label class="store-control" for="store-selector">
+            <span>店舗</span>
+            <span class="select-wrap">
+              <svg class="icon" aria-hidden="true"><use href="#icon-store"></use></svg>
+              <select id="store-selector" data-store-selector>
+                <option value="main">中央通り本店</option>
+                <option value="station">北口駅前店</option>
+                <option value="park">水辺公園店</option>
+              </select>
+            </span>
+          </label>
+          <div class="user-menu" aria-label="利用者メニュー">
+            <span class="user-menu__avatar" aria-hidden="true">店</span>
+            <strong data-user-name>中央通り本店 店長</strong>
+          </div>
+        </header>
+
+        <main id="main-content" tabindex="-1">
+          <h1 class="visually-hidden">totte カフェ業務管理アプリ</h1>
+          <div id="app-view"></div>
+        </main>
+      </div>
+    </div>
+
+    <nav class="bottom-nav" aria-label="モバイルナビゲーション" data-mobile-navigation></nav>
+
+    <dialog id="workflow-dialog" class="workflow-dialog" aria-labelledby="dialog-title">
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 48" role="img" aria-labelledby="title desc">
+  <title id="title">totte</title>
+  <desc id="desc">取っ手の形と小文字のtを組み合わせた白いシンボルと、丸みのあるtotteのワードマーク</desc>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-width="5">
+      <path d="M8 18v-2C8 9.9 12.9 5 19 5s11 4.9 11 11v2"/>
+      <path d="M7 20h24M19 18v21"/>
+    </g>
+    <g stroke-width="5.2">
+      <path d="M58 9v25c0 3.3 2.1 5 5 5M50 18h16"/>
+      <circle cx="82" cy="27" r="11"/>
+      <path d="M106 9v25c0 3.3 2.1 5 5 5M98 18h16M130 9v25c0 3.3 2.1 5 5 5M122 18h16"/>
+      <path d="M166 27h-22c0-6.7 4.7-12 11.2-12S166 20.1 166 27h-22c0 7 5.1 12 12.4 12 3.8 0 7.1-1.2 9.6-3.6"/>
+    </g>
+  </g>
+</svg>
