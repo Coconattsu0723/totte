@@ -347,7 +347,7 @@
   }
 
   function ordersTable(orders, compact = false) {
-    return `<div class="data-table-wrap"><table class="data-table">
+    return `<div class="data-table-wrap"><table class="data-table data-table--orders">
       <thead><tr><th>発注番号</th><th>品目</th><th>発注日</th><th>入荷予定</th><th>発注状態</th><th>操作</th></tr></thead>
       <tbody>${orders.map((order) => {
         const item = getOrderItem(order);

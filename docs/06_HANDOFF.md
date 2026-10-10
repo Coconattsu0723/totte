@@ -91,6 +91,10 @@
 - px別見出しへ `MAIN + STATES / LAYOUT CHECK / MOBILE DESIGN BASE / MINIMUM WIDTH CHECK` を明記し、画面数の違いが制作漏れではなく確認目的の違いだと分かるようにした。
 - 公開先をGitHub Pages（`https://coconattsu0723.github.io/totte/`）に決定し、canonical、Open Graph、Twitter Card、1200 × 630px OGP画像、専用404ページをローカルで準備した。
 - GitHub Pages相当の `/totte/` ベースパスでトップページと404ページを表示し、静的HTML監査0エラー・0警告、375pxの横方向のはみ出し0件、画像読み込み失敗0件、ブラウザ警告・エラー0件を確認した。
+- GitHub Pages（`https://coconattsu0723.github.io/totte/`）で公開済み。本番URLのcanonical、OGP、favicon、専用404、Consoleを確認した。
+- 本番の主要4画面を375 / 390 / 768 / 1024 / 1366 / 1440pxで確認し、横方向のはみ出し・画像読み込み失敗は0件だった。
+- 隔離したローカルURLで、発注数量エラー、既存入荷待ち表示、発注確定、入荷反映、在庫加算、入荷済み化、二重処理防止まで通しで確認した。
+- 公開後QAで見つかった768pxの発注ボタンと1024pxの発注表の不自然な改行を修正した。ボタンを途中改行させず、1199px以下の発注表では発注日を省略してPencil正本と同じ優先列構成にし、768 / 1024 / 1199 / 1200 / 1366pxで再確認した。
 
 ## Design source
 
@@ -161,11 +165,13 @@ Pencil正本はPencilアプリ上で開き、正式ロゴ・正式店舗名・�
 
 ## Next work
 
-1. GitHubへ再認証し、`totte` リポジトリを作成してGitHub Pagesを公開する。
-2. 本番URLでcanonical / OGP / favicon / 404 / Console / 主要操作を再確認する。
+1. 公開後QAで行った中間幅修正と文書更新をコミットし、GitHubへ手動でpushする。
+2. デプロイ完了後、公開URLの768 / 1024pxで一覧とボタンの改行を再確認する。
+3. ポートフォリオ掲載用の代表画像とケーススタディを整理する。
 
 ## Open items
 
-- GitHubの再認証とPages公開
+- 中間幅修正のGitHub Pages反映と本番再確認
+- Safari / Firefoxの実機確認
 - ポートフォリオ掲載用の見せ方
 
