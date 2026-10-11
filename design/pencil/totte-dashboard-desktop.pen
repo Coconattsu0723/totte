@@ -116790,6 +116790,519 @@
           "fontWeight": "500"
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "t6T8FK",
+      "x": 0,
+      "y": 22708,
+      "name": "Canvas Group / Publishing Assets",
+      "width": 1400,
+      "height": 84,
+      "fill": "$primary",
+      "cornerRadius": 12,
+      "layout": "vertical",
+      "gap": 4,
+      "padding": [
+        14,
+        20
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "tlmm3",
+          "name": "Publishing Assets Label",
+          "fill": "#FFFFFF",
+          "content": "PUBLISHING ASSETS",
+          "fontFamily": "$font",
+          "fontSize": 20,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "wjlf8",
+          "name": "Publishing Assets Note",
+          "fill": "#D6E8DF",
+          "content": "GitHub Pages公開用｜OGP 1200 × 630px",
+          "fontFamily": "$font",
+          "fontSize": 12,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "v2R8M",
+      "x": 0,
+      "y": 22828,
+      "name": "OGP / totte GitHub Pages",
+      "clip": true,
+      "width": 1200,
+      "height": 630,
+      "fill": "$vd-primary",
+      "layout": "none",
+      "children": [
+        {
+          "type": "ellipse",
+          "id": "Vq0me",
+          "x": 0,
+          "y": 444,
+          "name": "OGP Decorative Circle Large",
+          "fill": "#FFFFFF0A",
+          "width": 210,
+          "height": 150
+        },
+        {
+          "type": "ellipse",
+          "id": "y4H4w",
+          "x": 650,
+          "y": 0,
+          "name": "OGP Decorative Circle Small",
+          "fill": "#E2EEE812",
+          "width": 210,
+          "height": 150
+        },
+        {
+          "id": "I9u29",
+          "type": "ref",
+          "ref": "LOlND",
+          "name": "OGP Official Logo Reverse",
+          "x": 72,
+          "y": 62
+        },
+        {
+          "type": "text",
+          "id": "AwDs1",
+          "x": 72,
+          "y": 150,
+          "name": "OGP Eyebrow",
+          "fill": "#BFD6CC",
+          "content": "CAFE OPERATIONS / PORTFOLIO PROJECT",
+          "fontFamily": "$vd-font",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "letterSpacing": 1.2
+        },
+        {
+          "type": "text",
+          "id": "L7dPz",
+          "x": 72,
+          "y": 194,
+          "name": "OGP Headline",
+          "fill": "#FFFFFF",
+          "textGrowth": "fixed-width",
+          "width": 625,
+          "content": "売上も、在庫も、発注も。\n必要な情報へ、すぐ手が届く。",
+          "lineHeight": 1.36,
+          "fontFamily": "$vd-font",
+          "fontSize": 44,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "lgXdc",
+          "x": 72,
+          "y": 340,
+          "name": "OGP Product Description",
+          "fill": "#D6E8DF",
+          "textGrowth": "fixed-width",
+          "width": 610,
+          "content": "小規模カフェの営業状況と在庫不足をまとめ、\n確認から発注・入荷までを整える業務Webアプリ。",
+          "lineHeight": 1.7,
+          "fontFamily": "$vd-font",
+          "fontSize": 19,
+          "fontWeight": "500"
+        },
+        {
+          "type": "rectangle",
+          "cornerRadius": 2,
+          "id": "eLMA7",
+          "x": 72,
+          "y": 471,
+          "name": "OGP Divider",
+          "fill": "#D9B978",
+          "width": 72,
+          "height": 3
+        },
+        {
+          "type": "text",
+          "id": "e4TnQ",
+          "x": 72,
+          "y": 500,
+          "name": "OGP Brand Message",
+          "fill": "#FFFFFF",
+          "content": "お店の毎日を、ひとつに整える。",
+          "fontFamily": "$vd-font",
+          "fontSize": 24,
+          "fontWeight": "700"
+        },
+        {
+          "type": "frame",
+          "id": "FjkV1",
+          "x": 760,
+          "y": 56,
+          "name": "OGP Dashboard Preview",
+          "width": 382,
+          "height": 518,
+          "fill": "$vd-bg",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#0F2E2455",
+            "offset": {
+              "x": 0,
+              "y": 18
+            },
+            "blur": 36
+          },
+          "layout": "vertical",
+          "gap": 20,
+          "padding": 28,
+          "children": [
+            {
+              "type": "frame",
+              "id": "F2lPw3",
+              "name": "OGP Preview Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bBIL9",
+                  "name": "OGP Preview Store",
+                  "layout": "vertical",
+                  "gap": 3,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BcIIZ",
+                      "name": "OGP Preview Store Label",
+                      "fill": "$vd-text-muted",
+                      "content": "現在の店舗",
+                      "fontFamily": "$vd-font",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mHwLX",
+                      "name": "OGP Preview Store Name",
+                      "fill": "$vd-text",
+                      "content": "中央通り本店",
+                      "fontFamily": "$vd-font",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rtLJq",
+                  "name": "OGP Preview Date Chip",
+                  "fill": "$vd-primary-soft",
+                  "cornerRadius": 14,
+                  "padding": [
+                    7,
+                    11
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LssfT",
+                      "name": "OGP Preview Date",
+                      "fill": "$vd-primary",
+                      "content": "10月10日",
+                      "fontFamily": "$vd-font",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j0zNl",
+              "name": "OGP Preview Sales",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KRoi0",
+                  "name": "OGP Preview Sales Label",
+                  "fill": "$vd-text-muted",
+                  "content": "今日の売上",
+                  "fontFamily": "$vd-font",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "sLtKy",
+                  "name": "OGP Preview Sales Value",
+                  "fill": "$vd-text",
+                  "content": "84,000円",
+                  "fontFamily": "$vd-font",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "tnYRL",
+                  "name": "OGP Preview Sales Change",
+                  "fill": "$vd-success",
+                  "content": "↑ 8.4% 前日比",
+                  "fontFamily": "$vd-font",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "E4G8km",
+              "name": "OGP Preview Chart Block",
+              "width": "fill_container",
+              "height": 150,
+              "fill": "$vd-surface",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                16,
+                18
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Ux0MW",
+                  "name": "OGP Preview Chart Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MGMuF",
+                      "name": "OGP Preview Chart Title",
+                      "fill": "$vd-text",
+                      "content": "過去7日間の売上",
+                      "fontFamily": "$vd-font",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zVZlx",
+                      "name": "OGP Preview Chart Unit",
+                      "fill": "$vd-text-muted",
+                      "content": "円",
+                      "fontFamily": "$vd-font",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z5yMe",
+                  "name": "OGP Preview Chart Bars",
+                  "width": "fill_container",
+                  "height": 92,
+                  "gap": 12,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": [
+                        5,
+                        5,
+                        0,
+                        0
+                      ],
+                      "id": "dAQHn",
+                      "name": "OGP Preview Bar 1",
+                      "fill": "$vd-primary-soft",
+                      "width": "fill_container",
+                      "height": 42
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": [
+                        5,
+                        5,
+                        0,
+                        0
+                      ],
+                      "id": "PnmmX",
+                      "name": "OGP Preview Bar 2",
+                      "fill": "$vd-primary-soft",
+                      "width": "fill_container",
+                      "height": 58
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": [
+                        5,
+                        5,
+                        0,
+                        0
+                      ],
+                      "id": "p3NVT",
+                      "name": "OGP Preview Bar 3",
+                      "fill": "$vd-primary-soft",
+                      "width": "fill_container",
+                      "height": 51
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": [
+                        5,
+                        5,
+                        0,
+                        0
+                      ],
+                      "id": "DCKUZ",
+                      "name": "OGP Preview Bar 4",
+                      "fill": "$vd-primary-soft",
+                      "width": "fill_container",
+                      "height": 72
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": [
+                        5,
+                        5,
+                        0,
+                        0
+                      ],
+                      "id": "jQyBM",
+                      "name": "OGP Preview Bar 5",
+                      "fill": "$vd-primary-soft",
+                      "width": "fill_container",
+                      "height": 63
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": [
+                        5,
+                        5,
+                        0,
+                        0
+                      ],
+                      "id": "NediX",
+                      "name": "OGP Preview Bar 6",
+                      "fill": "$vd-primary",
+                      "width": "fill_container",
+                      "height": 86
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": [
+                        5,
+                        5,
+                        0,
+                        0
+                      ],
+                      "id": "bVvBB",
+                      "name": "OGP Preview Bar 7",
+                      "fill": "$vd-primary-soft",
+                      "width": "fill_container",
+                      "height": 76
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KvXbr",
+              "name": "OGP Preview Status Row",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "r9HGM",
+                  "name": "OGP Preview 要補充",
+                  "width": "fill_container",
+                  "fill": "$vd-warning-soft",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I3oX8",
+                      "name": "OGP Preview 要補充 Label",
+                      "fill": "$vd-text-muted",
+                      "content": "要補充",
+                      "fontFamily": "$vd-font",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tbqSM",
+                      "name": "OGP Preview 要補充 Value",
+                      "fill": "$vd-warning",
+                      "content": "3品目",
+                      "fontFamily": "$vd-font",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GMTua",
+                  "name": "OGP Preview 入荷待ち",
+                  "width": "fill_container",
+                  "fill": "$vd-primary-soft",
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gu8SJ",
+                      "name": "OGP Preview 入荷待ち Label",
+                      "fill": "$vd-text-muted",
+                      "content": "入荷待ち",
+                      "fontFamily": "$vd-font",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QHKJM",
+                      "name": "OGP Preview 入荷待ち Value",
+                      "fill": "$vd-primary",
+                      "content": "2件",
+                      "fontFamily": "$vd-font",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
