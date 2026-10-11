@@ -1,5 +1,12 @@
 # totte project instructions
 
+## Project status
+
+- 制作完了日：2026-10-11
+- 公開URL：`https://coconattsu0723.github.io/totte/`
+- 企画、デザイン、実装、公開後QA、README、ケーススタディ原稿まで完了している。
+- 今後はユーザーから明示された場合のみ、保守・追加検証・ポートフォリオ掲載対応を行う。
+
 ## Project root
 
 - 正式なプロジェクトルートは `/Users/natsumikato/Documents/Portfolio/totte`。

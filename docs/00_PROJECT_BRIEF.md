@@ -146,5 +146,5 @@ Navigation、Button、Input、Status、Data Table、Modal、Toastを共通化す
 
 ## 11. Current phase
 
-企画、情報設計、ワイヤーフレーム、主要状態、レスポンシブ、ビジュアルデザイン、HTML / CSS / Vanilla JavaScript実装まで完了。主要4画面と発注・入荷フローはブラウザで動作確認済み。正式ロゴをSVGで制作し、サイドバー、ナビゲーションレール、モバイルヘッダー、faviconへ反映した。GitHub Pages（`https://coconattsu0723.github.io/totte/`）で公開済み。本番URLのcanonical、OGP、favicon、404、Consoleを確認し、公開後QAで見つかった中間幅の一覧とボタン改行も修正・再公開・本番確認まで完了している。
+2026年10月11日に制作完了。企画、情報設計、ワイヤーフレーム、主要状態、レスポンシブ、ビジュアルデザイン、HTML / CSS / Vanilla JavaScript実装、公開後QA、README、ケーススタディ原稿まで完了している。主要4画面と発注・入荷フローはブラウザで動作確認済み。正式ロゴをSVGで制作し、サイドバー、ナビゲーションレール、モバイルヘッダー、faviconへ反映した。GitHub Pages（`https://coconattsu0723.github.io/totte/`）で公開済み。本番URLのcanonical、OGP、favicon、404、Consoleを確認し、公開後QAで見つかった中間幅の一覧とボタン改行も修正・再公開・本番確認まで完了している。
 

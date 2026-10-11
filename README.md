@@ -8,6 +8,8 @@
 
 **公開URL：** [https://coconattsu0723.github.io/totte/](https://coconattsu0723.github.io/totte/)
 
+**制作状況：** 2026年10月11日 完了
+
 ## 主な画面
 
 - ダッシュボード：売上・客数・客単価、要補充、入荷待ちを確認

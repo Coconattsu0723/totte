@@ -4,6 +4,7 @@
 
 ## Current status
 
+- プロジェクト状態：2026年10月11日 制作完了。
 - 正式ルート：`/Users/natsumikato/Documents/Portfolio/totte`
 - 企画、対象、課題、価値、4画面、主要導線、データ定義は `00_PROJECT_BRIEF.md` に整理済み。
 - 初期のレイアウト、配色候補、タイポグラフィ、共通UI、状態、アクセシビリティは `02_DESIGN_RULES.md` に整理済み。
@@ -166,13 +167,15 @@
 
 Pencil正本はPencilアプリ上で開き、正式ロゴ・正式店舗名・仕入先表示を直接更新した。代表画面は確認用PNGとして書き出している。
 
-## Next work
+## Future optional work
 
-1. 必要に応じてSafari / Firefox実機確認を追加する。
+制作上の必須作業は完了している。今後行う場合は次の任意対応とする。
+
+1. Safari / Firefox実機確認を追加する。
 2. ポートフォリオ本体の制作開始後、`docs/07_PORTFOLIO_CASE_STUDY.md` と推奨画像を掲載する。
 
-## Open items
+## Deferred items
 
-- Safari / Firefoxの実機確認
+- Safari / Firefoxの実機確認（任意）
 - ポートフォリオ本体へのケーススタディ掲載（本体制作開始まで保留）
 
