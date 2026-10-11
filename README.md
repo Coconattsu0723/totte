@@ -62,6 +62,28 @@
 
 外部フレームワークやサーバーは使用していません。
 
+## プロジェクト構成
+
+```text
+totte/
+├── index.html                 # 4画面をハッシュで切り替えるアプリ本体
+├── 404.html                   # GitHub Pages用404ページ
+├── assets/
+│   ├── css/common.css         # トークン、共通UI、画面、レスポンシブ
+│   ├── js/main.js             # データ、画面描画、発注・入荷、ブラウザ保存
+│   └── images/
+│       ├── brand/             # ロゴ、favicon、OGP
+│       └── products/          # 14品目の背景透過画像
+├── design/
+│   ├── pencil/                # Pencil正本
+│   └── exports/               # 確認用の書き出し画像
+├── docs/                      # 企画、設計、実装、判断、引き継ぎ、ケーススタディ
+├── AGENTS.md                  # プロジェクト固有の作業指示
+└── README.md
+```
+
+4画面は1つの `index.html` 内で切り替えるため、下層HTML用の `pages/` は設けていません。アイコンは実装内のSVG、フォントはシステムフォントを使用しているため、未使用の `assets/icons/` と `assets/fonts/` も作成していません。
+
 ## ローカルで確認する
 
 プロジェクトルートで静的サーバーを起動します。
